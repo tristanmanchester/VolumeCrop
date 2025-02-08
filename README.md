@@ -10,6 +10,10 @@ Python script for processing X-ray tomography data from Diamond Light Source bea
 4. Normalizes data to 0.5-99.5 percentile range and converts to uint8
 5. Saves processed volumes and diagnostic plots
 
+| XZ Slice | Average Pixel Values | Threshold Analysis |
+|:-------------:|:-------------:|:-------------:|
+| <img src="https://github.com/tristanmanchester/VolumeCrop/blob/main/images/example_xz_slice.png" width="300"> | <img src="https://github.com/tristanmanchester/VolumeCrop/blob/main/images/example_average_pixel_values.png" width="300"> | <img src="https://github.com/tristanmanchester/VolumeCrop/blob/main/images/example_threshold_analysis.png" width="300"> |
+
 ## Usage
 
 1. Update experiment numbers in `main()`:
